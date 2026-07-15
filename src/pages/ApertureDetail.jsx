@@ -170,8 +170,8 @@ export default function ApertureDetail() {
                       </div>
                     </div>
                     <div className="relative flex items-center justify-center overflow-hidden border-4 border-on-background bg-surface-dim p-1 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] md:w-[35%]" style={{ minHeight: '180px' }}>
-                      <img className="h-full w-full max-w-full object-contain" alt="Lens diagram"
-                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwLpHDkA83CSKw41XznZ4qe087WI0yuH9VoJgWFrhluJDhTOhHizo4wTdqJelT5DkvpiXV6YUItxdf_FA6f84bRHJc8fdKQTr6P3cy-1eb5KYD-Dmq45TpbtrXpduFfiVYgpLWK3pNrBxjjhoCvZmufnU0XEMl3HKTELiiRU28T2YICn9X5qjLzPN3rRuuObhD-MBAFQf4__hPCgoQGabQnboJSCVOMHSG6cLJEWHR28EueGEfl1BIbQ"
+                      <img className="h-full w-full max-w-full object-contain" loading="lazy" alt="Lens diagram"
+                        src="/tutorial/LENS_DIAGRAM_01.png"
                       />
                       <div className="absolute bottom-1 right-1 bg-on-background px-2 py-0.5 font-label-caps text-primary-fixed-dim">LENS_DIAGRAM_01.BMP</div>
                     </div>
@@ -195,8 +195,9 @@ export default function ApertureDetail() {
                           <div className="relative overflow-hidden border-2 border-on-surface bg-surface-dim" style={{ height: '160px' }}>
                             <img
                               className="h-full w-full object-cover"
+                              loading="lazy"
                               alt="大光圈人像摄影示例"
-                              src="/tutorial/wide-aperture-portrait.png"
+                              src="/tutorial/APERTURE_WIDE_01.png"
                               style={{ display: 'block', objectPosition: 'center 30%' }}
                               onError={(e) => {
                                 e.currentTarget.style.display = 'none';
@@ -222,8 +223,8 @@ export default function ApertureDetail() {
                         </div>
                         <div className="flex-1 space-y-0.5 p-1">
                           <div className="relative overflow-hidden border-2 border-on-background bg-surface-dim" style={{ height: '160px' }}>
-                            <img className="h-full w-full object-cover" alt="Deep DOF"
-                              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIqEIENQ4RZjEjKHb3bPJfFRMHh1fsYgr94ibTImXMTxHMlFzwOJyypS2ZOod4jWDpUKPYVmkBoFIzYjlv4XglaCrwWkg2ZAW2D4p6UVoW8AHiVeLaGoN5MTzEuHUWNfhnEC8aePTkEvT9e2xMA1TWmBBtiByZv1oT2VZKv3Ae6uOx3WAWzepLmElZVte60YZijzsCDTUa69leZoSLYgwopl4e2_BU9Fyrh-GKycMck9BZTpEDsbO5Cg"
+                            <img className="h-full w-full object-cover" loading="lazy" alt="Deep DOF"
+                              src="/tutorial/APERTURE_NARROW_02.png"
                               style={{ display: 'block', objectPosition: 'center center' }}
                             />
                             <div className="absolute right-1 top-1 bg-outline px-2 font-label-caps text-on-surface">f/11</div>
