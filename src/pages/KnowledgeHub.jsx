@@ -126,7 +126,7 @@ export default function KnowledgeHub() {
                 </div>
                 <div className="flex h-full flex-col p-2">
                   <div className="group relative mb-1 overflow-hidden border-2 border-on-surface bg-on-surface-variant" style={{ aspectRatio: '16/9', maxHeight: '130px' }}>
-                    <img className="h-full w-full max-w-full object-cover" alt="浅景深预览"
+                    <img className="h-full w-full max-w-full object-cover" loading="lazy" alt="浅景深预览"
                       src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY_DeQlK2xOnYXUV2eCmNHpcN3GbsNxS6m0CyNxSYecltuJItOgiZ1orkSQ419pxKbH02VbEKV13UIBrP6g1JqIfrOlWV6AAT1zNpRqOd66rwvMpK7CeMpGomOLdYl3ixlqt3QJbXkhaAbQAlFN1_2ri8CF7NI4O9-7sqcQhAHQnD5ZHmljTisW_rNkRnC35PVHtOZr-uXsEpfy3K27Prh5rvmdnAgu02cBFHsoGnp89-FK_MQvOZD4g" />
                     <div className="pointer-events-none absolute inset-0 dither-bg opacity-20"></div>
                     <div className="absolute bottom-1 left-1 bg-on-surface px-2 py-0.5 text-[10px] uppercase text-surface font-label-caps">预览：浅景深</div>
@@ -153,7 +153,7 @@ export default function KnowledgeHub() {
                 </div>
                 <div className="flex h-full flex-col p-2">
                   <div className="group relative mb-1 overflow-hidden border-2 border-on-surface bg-on-surface-variant" style={{ aspectRatio: '16/9', maxHeight: '130px' }}>
-                    <img className="h-full w-full max-w-full object-cover" alt="动态模糊预览"
+                    <img className="h-full w-full max-w-full object-cover" loading="lazy" alt="动态模糊预览"
                       src="https://lh3.googleusercontent.com/aida-public/AB6AXuD065xolEkCkMTExUXWAhcTyqU-YOT3KPp9bXnp9iIncN5Y3jW2HRvkdq8GZQUd6OxwsSJyCwt1A6USgNhXddBqnEML-BNiR-IUsqayKOaOA5UIqGTT6vmPv5Qp5d-ErVth23mFBu1h24J2TTPInepT9NQQ-Hi9YFKrhaN8Uma3UVywCX2-fDmeU9zGc_k7SqEqbX05Pqt3T80Fmtp6ekqs7pau1SvTMvczjBK5P9w5PlSoISmNhLlE8w" />
                     <div className="pointer-events-none absolute inset-0 dither-bg opacity-20"></div>
                     <div className="absolute bottom-1 left-1 bg-on-surface px-2 py-0.5 text-[10px] uppercase text-surface font-label-caps">预览：动态模糊</div>
@@ -180,7 +180,7 @@ export default function KnowledgeHub() {
                 </div>
                 <div className="flex h-full flex-col p-2">
                   <div className="group relative mb-1 overflow-hidden border-2 border-on-surface bg-on-surface-variant" style={{ aspectRatio: '16/9', maxHeight: '130px' }}>
-                    <img className="h-full w-full max-w-full object-cover" alt="感光器噪点预览"
+                    <img className="h-full w-full max-w-full object-cover" loading="lazy" alt="感光器噪点预览"
                       src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-KxY8oKuQDR8CuiGQMZQTS9SOSOa-ugO148FnCVLWGK8YjA1K0O7qellqalEvL8TtLduGpfsXcReIoqt8WzgK9uyWgNq__KxdcY_KynZt4Q2P2uEirC1sBBROEoBFYNvSI9fKu_C7s6idBmR3T3vxurKwSCGjQFcn3tKA6r935tskrvobQw6C6KeM97xpoqRcESTT3hcDrdc6gPJLUMPUJhCToi783ATDoVUFdBjx-J4rOtsyPM71oA" />
                     <div className="pointer-events-none absolute inset-0 dither-bg opacity-40"></div>
                     <div className="absolute bottom-1 left-1 bg-on-surface px-2 py-0.5 text-[10px] uppercase text-surface font-label-caps">预览：感光器噪点</div>
@@ -207,7 +207,7 @@ export default function KnowledgeHub() {
                 </div>
                 <div className="flex h-full flex-col p-2">
                   <div className="group relative mb-1 overflow-hidden border-2 border-on-surface bg-on-surface-variant" style={{ aspectRatio: '16/9', maxHeight: '130px' }}>
-                    <img className="h-full w-full max-w-full object-cover" alt="测验预览"
+                    <img className="h-full w-full max-w-full object-cover" loading="lazy" alt="测验预览"
                       src="https://lh3.googleusercontent.com/aida-public/AB6AXuAlL-gwOhEbigtVtRMJDA5aZj2OLSJStBaFT20PfpNVY3IuqbjFLzb0dZ875jPAiQasx65sP46WAIMGSQbuNWU1CtUBTAguYrjEhj5vBOGsf_Av6Vg5EKl4Dt7bo8ircv9lWiZ-fsNmUKCRzNcfXOeWhSAmXBgdOQOU9Ta2mw_C6XIHjazMKHR8T2BrtfmuKgioD23mW5YsxEeAN-GfrOtRSlFAjpRfhwiSpzPtFd_n2S7c8fmz70-w-g" />
                     <div className="pointer-events-none absolute inset-0 dither-bg opacity-20"></div>
                     <div className="absolute bottom-1 left-1 bg-on-surface px-2 py-0.5 text-[10px] uppercase text-surface font-label-caps">预览：测验</div>
